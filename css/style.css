@@ -1,0 +1,96 @@
+
+/* fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@300&display=swap');
+
+:root{
+    --primary-color: #4458dc;
+    --secondary-color: #854fee;
+    --bg-white: #fff;
+    --bg-light: #faf8ff;
+    --bg-black: #000;
+    --bg-gray: #eee;
+    --gradient: linear-gradient(to right , #4458dc 0% , #854fee 100%), radial-gradient(circle at top left,#4458dc ,#854fee );
+
+    --primary-text: #4458dc;
+    --secondary-text: #854fee;
+    --text-white:#fff;
+    --text-black: #000;
+    --text-gray: #777;
+
+    --primary-font: 'rubik', sans-serif;
+    --secondary-font: 'roboto', sans-serif;
+}
+
+h2, h5{color: var(--secondary-text);}
+
+a{text-decoration: none;}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0) !important;
+}
+
+.main-btn{
+    display: inline-block;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 8px 10px rgb(118 85 221 / 30%);
+    border: 10px solid transparent;
+    padding: 0 10px;
+    transition: all .3s ease-in-out;
+    /* -webkit-transition: all .3s ease-in-out; */
+}
+
+.primary-btn{
+    background-image: var(--gradient);
+    color: var(--text-white);
+}
+.primary-btn:hover{
+    background: var(--bg-white);
+    color: var(--secondary-text);
+    border-color: var(--secondary-color);
+    box-shadow: none;
+}
+.secondary-btn{
+    background-image: var(--gradient);
+    color: var(--text-white);
+    
+}
+.secondary-btn:hover{
+    background: var(--bg-white);
+    color: var(--secondary-text);
+    border-color: var(--secondary-color);
+    box-shadow: none;
+    box-shadow: none;
+}
+
+.top-img{
+    width: 165px;
+    height: 60%;
+    display: block;
+    margin: auto;
+}
+
+.svg-back{
+    background: url(../images/background.jpg) no-repeat center;color: #fff;
+}
+
+.contact-background{
+    background: url(../images/back.jpg);
+}
+
+
+.img01{
+    width: 400px;height: 250px;
+}
+
+.card01{
+    box-shadow: 0 8px 10px rgb(118 85 221 / 30%);
+    height: 300px;
+}
+/* @media screen and (max-width:768px) {
+    .img01{width: 100%;}
+} */
